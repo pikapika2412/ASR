@@ -1,0 +1,232 @@
+{
+    "type": "table",
+    "database": null,
+    "name": "books",
+    "withoutRowId": false,
+    "strict": false,
+    "ddl": "CREATE TABLE books (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                title TEXT,\n                author TEXT,\n                publisher TEXT,\n                publication_year INTEGER,\n                pages TEXT,\n                dimensions TEXT,\n                registration_number TEXT,\n                isbn TEXT,\n                dewey_code TEXT,\n                price TEXT,\n                storage_location TEXT,\n                language TEXT,\n                document_type TEXT,\n                availability TEXT,\n                keywords TEXT,\n                subject TEXT,\n                department TEXT,\n                summary TEXT,\n                cover_image TEXT,\n                url TEXT,\n                scraped_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n            );",
+    "columns": [
+        {
+            "name": "id",
+            "type": "INTEGER",
+            "constraints": [
+                {
+                    "type": "PRIMARY KEY",
+                    "definition": "PRIMARY KEY AUTOINCREMENT"
+                }
+            ]
+        },
+        {
+            "name": "title",
+            "type": "TEXT"
+        },
+        {
+            "name": "author",
+            "type": "TEXT"
+        },
+        {
+            "name": "publisher",
+            "type": "TEXT"
+        },
+        {
+            "name": "publication_year",
+            "type": "INTEGER"
+        },
+        {
+            "name": "pages",
+            "type": "TEXT"
+        },
+        {
+            "name": "dimensions",
+            "type": "TEXT"
+        },
+        {
+            "name": "registration_number",
+            "type": "TEXT"
+        },
+        {
+            "name": "isbn",
+            "type": "TEXT"
+        },
+        {
+            "name": "dewey_code",
+            "type": "TEXT"
+        },
+        {
+            "name": "price",
+            "type": "TEXT"
+        },
+        {
+            "name": "storage_location",
+            "type": "TEXT"
+        },
+        {
+            "name": "language",
+            "type": "TEXT"
+        },
+        {
+            "name": "document_type",
+            "type": "TEXT"
+        },
+        {
+            "name": "availability",
+            "type": "TEXT"
+        },
+        {
+            "name": "keywords",
+            "type": "TEXT"
+        },
+        {
+            "name": "subject",
+            "type": "TEXT"
+        },
+        {
+            "name": "department",
+            "type": "TEXT"
+        },
+        {
+            "name": "summary",
+            "type": "TEXT"
+        },
+        {
+            "name": "cover_image",
+            "type": "TEXT"
+        },
+        {
+            "name": "url",
+            "type": "TEXT"
+        },
+        {
+            "name": "scraped_at",
+            "type": "TIMESTAMP",
+            "constraints": [
+                {
+                    "type": "DEFAULT",
+                    "definition": "DEFAULT CURRENT_TIMESTAMP\n            "
+                }
+            ]
+        }
+    ],
+    "rows": [
+        [
+            1,
+            "ý kiến bạn đọc",
+            "スクウェア・エニックス",
+            "Square Enix",
+            2023,
+            "335 p.",
+            "28 cm.",
+            "57815",
+            "",
+            "741.5",
+            "0",
+            "03 Quang Trung",
+            "Japanese",
+            "Sách Tham Khảo",
+            "1\/1",
+            "Art, design",
+            "",
+            "Khoa Mỹ thuật Ứng dụng",
+            "四周年から五周年にかけて登場した艦船たちの凛々しく、可愛く、素敵なイラストの数々を収録したアートコレクション第5弾! 着せ替えした姿や改造、[META]の姿、ローディング画面のイラスト、設定画、本書用の描き下ろしイラストなど、心惹かれる彼女たちの姿をじっくり堪能できる1冊です! 五周年のお祝い、一緒にしようね! 指揮官. Bạn p",
+            "https:\/\/hfs1.duytan.edu.vn\/upload\/sach_anh\/92930.jpg",
+            "https:\/\/elib.duytan.edu.vn\/Sach\/Detail\/92930",
+            "2025-06-12 08:14:47"
+        ],
+        [
+            2,
+            "ý kiến bạn đọc",
+            "スクウェア・エニックス",
+            "Square Enix",
+            2022,
+            "335 p.",
+            "28 cm.",
+            "57814",
+            "9784757559035",
+            "741.5",
+            "0",
+            "03 Quang Trung",
+            "Japanese",
+            "Sách Tham Khảo",
+            "1\/1",
+            "Art, design",
+            "Art",
+            "Khoa Mỹ thuật Ứng dụng",
+            "『アズールレーン』初のアートブックが発売します! 一周年の間に登場した“艦=彼女たち\"のイラストはもちろん、改造した姿、着せ替えした姿など、400点以上のイラストを収録! 彼女たちにもっと近づける、くわしくなれる設定資料も必見です。 Bạn p",
+            "https:\/\/hfs1.duytan.edu.vn\/upload\/sach_anh\/92929.jpg",
+            "https:\/\/elib.duytan.edu.vn\/Sach\/Detail\/92929",
+            "2025-06-12 08:14:47"
+        ],
+        [
+            3,
+            "ý kiến bạn đọc",
+            "スクウェア・エニックス",
+            "スクウェア・エニックス",
+            2022,
+            "335 p.",
+            "28 cm.",
+            "57818",
+            "978-4757563667",
+            "741.5",
+            "0",
+            "03 Quang Trung",
+            "Japanese",
+            "Sách Tham Khảo",
+            "1\/1",
+            "Art, design",
+            "Art",
+            "Khoa Mỹ thuật Ứng dụng",
+            "アズールレーンの公式アートワークス第2弾です。1周年から2周年までのキャラクターイラストや設定資料を収録。全キャラクターの衣装違いアートワーク、ロード画面、イベントカットシーンなどを収録。 Bạn p",
+            "https:\/\/hfs1.duytan.edu.vn\/upload\/sach_anh\/92928.jpg",
+            "https:\/\/elib.duytan.edu.vn\/Sach\/Detail\/92928",
+            "2025-06-12 08:14:47"
+        ],
+        [
+            4,
+            "ý kiến bạn đọc",
+            "",
+            "Angma",
+            2023,
+            "336 p.",
+            "28 cm.",
+            "57819",
+            "978-4757588837",
+            "741.5",
+            "0",
+            "03 Quang Trung",
+            "Japanese",
+            "Sách Tham Khảo",
+            "1\/1",
+            "Art, design",
+            "Art",
+            "Khoa Mỹ thuật Ứng dụng",
+            "アズールレーン =",
+            "https:\/\/hfs1.duytan.edu.vn\/upload\/sach_anh\/92927.jpg",
+            "https:\/\/elib.duytan.edu.vn\/Sach\/Detail\/92927",
+            "2025-06-12 08:14:47"
+        ],
+        [
+            5,
+            "ý kiến bạn đọc",
+            "スクウェア・エニックス編",
+            "Square Enix",
+            2021,
+            "335 p.",
+            "28 cm.",
+            "57821",
+            "9784757575455",
+            "741.5",
+            "0",
+            "03 Quang Trung",
+            "Japanese",
+            "Sách Tham Khảo",
+            "2\/2",
+            "Art, design",
+            "Art",
+            "Khoa Mỹ thuật Ứng dụng",
+            "艦船たちのイラストをい~っぱい集めた『アズールレーン』アートコレクション第4弾♪. 三周年から四周年の間に登場した彼女たちの魅力あふれる衣装や表情をはじめ、. 美麗なローディング画面のイラストや本書用の描き下ろしイラストなどを余すことなく収録しています! Bạn p",
+            "https:\/\/hfs1.duytan.edu.vn\/upload\/sach_anh\/92926.jpg",
+            "https:\/\/elib.duytan.edu.vn\/Sach\/Detail\/92926",
+            "2025-06-12 08:14:47"
+        ]
+    ]
+}
